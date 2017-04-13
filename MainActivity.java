@@ -59,8 +59,10 @@ public class MainActivity extends AppCompatActivity {
     public void Delete(View v) {
         income =0;
         outcome = 0;
+        hasil = 0;
         Pemasukan1.setText(String.valueOf(income));
         Pemasukan2.setText(String.valueOf(outcome));
+        Hasil.setText(String.valueOf(hasil));
     }
 
 
